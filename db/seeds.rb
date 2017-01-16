@@ -64,3 +64,14 @@ Portfolio.create!(
 )
 
 puts "9 Portfolio items successfully created."
+
+# Technology
+puts "Adding 3 technologies"
+
+3.times do |t|
+  Portfolio.last.technologies.create!(
+    name: "Rails"
+  )
+end
+
+puts "3 Technologies successfully create"
