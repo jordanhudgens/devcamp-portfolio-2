@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'friendly_id', :require => 'friendly_id'
 gem 'devise'
+gem 'petergate'
 gem 'bootstrap'
 gem 'CmckeeDevViewsTool'
 
