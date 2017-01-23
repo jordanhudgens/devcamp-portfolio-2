@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'friendly_id', :require => 'friendly_id'
 gem 'devise'
+gem 'bootstrap'
+gem 'CmckeeDevViewsTool'
 
 group :development, :test do
   gem 'pry-rails'
